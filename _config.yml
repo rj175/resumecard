@@ -1,11 +1,11 @@
 # Site settings
-title: Dong Liang's CV 
-description: ddbullfrog's CV
+title: Richard Annand's CV
+description: Richard Annand's CV
 favicon: /assets/img/avatar.JPG
-baseurl: https://ddbullfrog.github.io/resumecard
-url: https://ddbullfrog.github.io/resumecard
+# baseurl: /
+# url: https://ddbullfrog.github.io/resumecard
 rss_url: /pages/atom.xml
-google_analytics: UA-63653234-1
+google_analytics: UA-155118582-1
 
 # Build settings
 markdown: kramdown
@@ -14,72 +14,63 @@ exclude: [vendor]
 
 # Author settings
 author:
-  name: Dong Liang
-  title: Java Developer
-  address: Auckland, New Zealand
-  email: dongg.liang#gmail.com
-  link: http://ddbullfrog.com
-  weibo:
-  github: ddbullfrog
-  linkedin: ddbullfrog
-  twitter: ddbullfrog
+  name: Richard Annand
+  title: Systems Engineer & Developer
+  address: Edinburgh, United Kingdom
+  email: richard@systemsmystery.cloud
+  link: https://blog.ohheyrj.co.uk
+  github: rj175
+  linkedin: richardannand
+  twitter: rj175
   gavatar: /resumecard/assets/img/avatar.JPG
   stackoverflow:
-#  stackoverflow: 4582127
   workHistory:
     - work1:
-      company: XXX Ltd
-      location: Auckland, New Zealand
-      title: Java Developer
-      started: 2014
-      duration: (2014 - Present)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Registers of Scotland
+      location: Edinburgh, United Kingdom
+      title: AWS Engineer
+      started: 2019
+      duration: ( August 2019 - Present)
+      description: Manage and configure AWS environment for production use.
     - work2:
-      company: XXX Ltd
-      location: Shanghai, China
-      title: Java Developer
-      started: 2012
-      duration: (2012 - 2014)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-    - work3:
-      company: XXX Ltd
-      location: Shanghai, China
-      title: Java Developer
-      started: 2009
-      duration: (2009 - 2012)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Registers of Scotland
+      location: Edinburgh, United Kingdom
+      title: Senior Platform Engineer
+      started: 2018
+      duration: (October 2018 -  December 2019)
+      description: Manage, monitor and configure VMware estate including VMWare vCenter, VMware Site Recovery Manager, NetApp, EMC VNX, EMC RecoverPoint. Managed in-house private cloud (VXBlock).
   educationHistory:
     - education1:
-      organization: XXXXXX University
-      location: Shenyang, China
-      degree: Bachelor
-      major: Software Engineering
-      started: 2005
-      duration: (2005 - 2009)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      organization: Jewel & Esk College
+      location: Edinburgh, United Kingdom
+      degree: HND
+      major: Technical Support
+      started: 2008
+      duration: (2008 - 2009)
+    - education2:
+      organization: Jewel & Esk Vally College
+      location: Dalkeith, Midlothian
+      degree: HNC
+      major: Computing
+      started: 2007
+      duration: (2007 - 2008)
   languages:
     - language1:
-      name: Chinese
-      proficiency: Native
-    - language2:
       name: English
-      proficiency: Professional
-    - language3:
-      name: Japanese
-      proficiency: Limit
+      proficiency: Native
   programmingSkills:
     - skill1:
-      name: HTML
+      name: VMware
       percentage: 100%
     - skill2:
-      name: Bootstrap
-      percentage: 90%
+      name: AWS
+      percentage: 25%
     - skill3:
-      name: JavaScript
-      percentage: 70%
+      name: Python
+      percentage: 50%
     - skill4:
-      name: AngularJS
+      name: PowerShell
       percentage: 70%
     - skill5:
-      name: Java/Java EE
-      percentage: 90%
+      name: Typescript
+      percentage: 10%

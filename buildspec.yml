@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-version:
+      ruby: 2.6
+    commands:
+      - bundle install
+  pre-build:
+    commands:
+      - jekyll clean
+  build:
+    commands:
+    - jekyll build
+artifacts:
+  files:
+    - '_site/*'
+  name: cv-ohheyrj-co-uk-$(date +%Y-%m-%d)
+
