@@ -6,7 +6,7 @@ phases:
       ruby: 2.6
     commands:
       - bundle install
-  pre-build:
+  pre_build:
     commands:
       - jekyll clean
   build:
