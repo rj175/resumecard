@@ -12,6 +12,7 @@ phases:
     - jekyll build
 artifacts:
   files:
-    - '_site/*'
-  name: cv-ohheyrj-co-uk-$(date +%Y-%m-%d)
+    - './**/*'
+  base-directory: _site
+  name: cv-ohheyrj-co-uk-$(date +%Y-%m-%d).zip
 
